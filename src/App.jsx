@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
@@ -11,6 +11,7 @@ import './App.css'
 
 function App() {
   return (
+    <HashRouter>
       <Layout>
         <Routes>
           <Route path="/" element={<LandingPage />} />
@@ -22,6 +23,7 @@ function App() {
           <Route path="/signup" element={<SignupPage />} />
         </Routes>
       </Layout>
+    </HashRouter>
   )
 }
 

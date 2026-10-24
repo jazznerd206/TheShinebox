@@ -2,6 +2,8 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
 
+const isProduction = process.env.NODE_ENV === 'production';
+
 module.exports = (_env, argv) => {
   const isDevelopment = argv.mode === 'development'
 
@@ -38,6 +40,7 @@ module.exports = (_env, argv) => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './public/index.html',
+        publicPath: '/TheShinebox/',
       }),
       isDevelopment && new ReactRefreshWebpackPlugin(),
     ].filter(Boolean),
