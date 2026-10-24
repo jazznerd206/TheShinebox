@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import "./Banner.css";
 
 const Banner = ({
-  imageUrl,
   text,
   textAlignment = "center",
 }) => {
@@ -86,12 +85,7 @@ const Banner = ({
     <section
       ref={bannerRef}
       className={`banner banner-${textAlignment}`}
-      style={{
-        "--banner-image": `url("${imageUrl}")`,
-      }}
     >
-      <div className="banner-background" />
-
       <div className="banner-overlay" />
 
       <div className="banner-content">

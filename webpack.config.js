@@ -11,7 +11,7 @@ module.exports = (_env, argv) => {
       path: path.resolve(__dirname, 'dist'),
       filename: isDevelopment ? 'bundle.js' : 'bundle.[contenthash].js',
       clean: true,
-      publicPath: '/The_Shinebox',
+      publicPath: '/',
     },
     devtool: isDevelopment ? 'eval-cheap-module-source-map' : 'source-map',
     module: {

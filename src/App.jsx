@@ -11,7 +11,6 @@ import './App.css'
 
 function App() {
   return (
-    <BrowserRouter>
       <Layout>
         <Routes>
           <Route path="/" element={<LandingPage />} />
@@ -23,7 +22,6 @@ function App() {
           <Route path="/signup" element={<SignupPage />} />
         </Routes>
       </Layout>
-    </BrowserRouter>
   )
 }
 

@@ -4,16 +4,21 @@ function LandingPage() {
   return (
     <section className="hero">
       <div className="hero__content">
-        <h1>THE SHINEBOX</h1>
+        <h1>SHINEBOX</h1>
+        <div>
+          <p>the royal treatment</p>
+        </div>
+        {/* <Banner
+          text="Your Car Deserves the Royal Treatment"
+          textAlignment="left"
+        />
         <Banner
-        imageUrl="./assets/Cruella.png"
-        text="Your Car Deserves the Royal Treatment"
-        textAlignment="left"
-      />
-        <Banner imageUrl="./assets/MsParker.png" text="Inside and Out" textAlignment="right" />
+          text="Inside and Out"
+          textAlignment="right"
+        /> */}
       </div>
     </section>
-  );
+  )
 }
 
-export default LandingPage;
+export default LandingPage

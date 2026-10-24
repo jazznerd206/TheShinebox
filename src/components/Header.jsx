@@ -35,7 +35,7 @@ function Header() {
     <header className="header">
       <div className="header__bar">
         <Link to="/" className="header__logo">
-          GO HOME
+          {location.pathname === '/' ? 'SHINEBOX' : 'HOME'}
         </Link>
         <button
           type="button"
