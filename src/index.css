@@ -1,7 +1,10 @@
+@import url('https://googleapis.com');
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  text-transform: none;
 }
 
 :root {
@@ -19,8 +22,8 @@
   --color-grey-light: #c4c4c4;
   --color-grey-dark: #5c5c5c;
 
-  --font-display: 'Cinzel', 'Times New Roman', serif;
-  --font-body: 'Source Sans 3', system-ui, -apple-system, sans-serif;
+  --font-display: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
 
   --space-xs: 0.5rem;
   --space-sm: 0.75rem;

@@ -40,7 +40,6 @@ module.exports = (_env, argv) => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './public/index.html',
-        publicPath: '/TheShinebox/',
       }),
       isDevelopment && new ReactRefreshWebpackPlugin(),
     ].filter(Boolean),

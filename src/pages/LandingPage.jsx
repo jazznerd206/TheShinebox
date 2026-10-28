@@ -4,18 +4,10 @@ function LandingPage() {
   return (
     <section className="hero">
       <div className="hero__content">
-        <h1>SHINEBOX</h1>
-        <div>
-          <p>the royal treatment</p>
+        <h1>steel kingz auto detailing</h1>
+        <div className="hero__tagline">
+          <p>THE ROYAL TREATMENT</p>
         </div>
-        {/* <Banner
-          text="Your Car Deserves the Royal Treatment"
-          textAlignment="left"
-        />
-        <Banner
-          text="Inside and Out"
-          textAlignment="right"
-        /> */}
       </div>
     </section>
   )

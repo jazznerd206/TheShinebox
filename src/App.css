@@ -45,7 +45,6 @@
   color: var(--color-gold);
   text-decoration: none;
   letter-spacing: 0.14em;
-  text-transform: uppercase;
   min-height: var(--touch-target);
   display: flex;
   align-items: center;
@@ -207,7 +206,6 @@
   color: var(--color-gold);
   margin-bottom: var(--space-lg);
   letter-spacing: 0.08em;
-  text-transform: uppercase;
 }
 
 .page__content {
@@ -239,7 +237,6 @@
   font-size: var(--font-size-sm);
   font-weight: 600;
   letter-spacing: 0.18em;
-  /* text-transform: uppercase; */
   color: var(--color-gold-muted);
   margin-bottom: var(--space-sm);
 }
@@ -254,13 +251,13 @@
   margin-bottom: var(--space-md);
   color: var(--color-gold);
   letter-spacing: 0.12em;
-  /* text-transform: uppercase; */
   flex-grow: 1;
   max-width: 95vw;
 }
 
 .hero__tagline {
   font-size: var(--font-size-lg);
+  letter-spacing: 0.12em;
   color: var(--color-grey);
   max-width: 32rem;
   margin: 0 auto;
